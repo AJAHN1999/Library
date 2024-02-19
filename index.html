@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your-Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <section class="heading">
+        <div class="logo">
+            <p style="text-align: center;">Book Vault</p>
+        </div>
+        <div class="add-button-div" style="width: 100%;">
+            <button class="addButton">+</button>
+        </div>
+    </section>
+    <section class="popup">
+        <div class="form">
+                <h3 style="color: white; font-size: 30px;">New Book</h3>
+                <input type="text" class="bookName" placeholder="book-name*" required>
+                <input type="text"  class="author" placeholder="author-name*" required>
+                <input type="text" class="pages" placeholder="number of pages*" required>
+                <input type="number" class="rating" placeholder="rating from 1-5" max="5" value="0" required>
+                <div class="readQ">
+                    <label for="read-or-not">Have you read it?</label>
+                    <input type="checkbox" id="read-or-not" value="not-read">
+                </div>
+                <div class="sc-button">
+                    <button type="submit" class="submit">Submit</button>
+                    <button class="cancel-popup">Cancel</button>
+                </div>
+                
+        </div>
+    </section>
+    <section class="library">
+
+    </section>
+    <section class="footer" style="text-align: center; position: fixed; bottom: 0; left:0; width: 100%;" >
+        <p>Made by Ajahn Tundla | <a href="https://github.com/AJAHN1999">GitHub</a></p>
+    </section>
+</body>
+</html>
